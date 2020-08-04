@@ -7,14 +7,14 @@ public class DataResponse {
 	
 	private TextLength textLength;
 	private int wordCount;
-	private List textCount; 
+	private List characterCount; 
 	
 	
-	public DataResponse(TextLength textLength, int wordCount, List textCount) {
+	public DataResponse(TextLength textLength, int wordCount, List characterCount) {
 		super();
 		this.textLength = textLength;
 		this.wordCount = wordCount;
-		this.textCount = textCount;
+		this.characterCount = characterCount;
 	}
 	
 	
@@ -34,11 +34,11 @@ public class DataResponse {
 	}
 	
 	
-	public List getTextCount() {
-		return textCount;
+	public List getCharacterCount() {
+		return characterCount;
 	}
-	public void setTextCount(List textCount) {
-		this.textCount = textCount;
+	public void setTextCount(List characterCount) {
+		this.characterCount = characterCount;
 	}
 
 }

@@ -2,27 +2,27 @@ package com.danyon.bean;
 
 public class TextLength {
 
-	private int withspace;
-	private int withoutspace;
+	private int withSpaces;
+	private int withoutSpaces;
 	
 
-	public TextLength(int withspace, int withoutspace) {
+	public TextLength(int withSpaces, int withoutSpaces) {
 		super();
-		this.withspace = withspace;
-		this.withoutspace = withoutspace;
+		this.withSpaces = withSpaces;
+		this.withoutSpaces = withoutSpaces;
 	}
 	
-	public int getWithspace() {
-		return withspace;
+	public int getWithSpaces() {
+		return withSpaces;
 	}
-	public void setWithspace(int withspace) {
-		this.withspace = withspace;
+	public void setWithSpaces(int withSpaces) {
+		this.withSpaces = withSpaces;
 	}
-	public int getWithoutspace() {
-		return withoutspace;
+	public int getWithoutSpaces() {
+		return withoutSpaces;
 	}
-	public void setWithoutspace(int withoutspace) {
-		this.withoutspace = withoutspace;
+	public void setWithoutSpaces(int withoutSpaces) {
+		this.withoutSpaces = withoutSpaces;
 	}	
 	
 }
