@@ -44,6 +44,7 @@ public class MainController {
 			
 			//to count number of letter occurrence 
 			for(int i=0; i<arrData.length; i++){
+				System.out.println(arrData[i]);
 				Map<String,Integer> dict = new HashMap<String,Integer>();  //print hashmap as list
 				int charCount = 0;
 				if(!arrData[i].equals(" ")){
@@ -51,7 +52,7 @@ public class MainController {
 					if(Character.isAlphabetic(c[0])){                //condition to check alphabets
 						for(int j=0; j<arrData.length; j++){
 					
-							if(arrData[i].equals(arrData[j]) && !arrData[i].equals(" ")){
+							if(arrData[i].equalsIgnoreCase(arrData[j]) && !arrData[i].equals(" ")){
 								charCount += 1;
 							}
 						}
